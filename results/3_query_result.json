@@ -1,0 +1,180 @@
+{
+    "took": 5,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 7,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "6",
+                "_score": null,
+                "_source": {
+                    "summary": "Why is PHP the most widely used programming language on the web? This updated edition teaches everything you need to know to create effective web applications using the latest features in PHP 7.4.",
+                    "title": "Programming PHP: Creating Dynamic Web Pages 4th Edition",
+                    "authors": [
+                        "Kevin Tatroe"
+                    ]
+                },
+                "highlight": {
+                    "summary": [
+                        "Why is PHP the most widely used <em>programming</em> <em>language</em> on the web?"
+                    ],
+                    "title": [
+                        "<em>Programming</em> PHP: Creating Dynamic Web Pages 4th Edition"
+                    ]
+                },
+                "sort": [
+                    "web"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "11",
+                "_score": null,
+                "_source": {
+                    "summary": "Hacking is the art of creative problem solving, whether that means finding an unconventional solution to a difficult problem or exploiting holes in sloppy programming.",
+                    "title": "Hacking: The Art of Exploitation, 2nd Edition",
+                    "authors": [
+                        "Jon Erickson"
+                    ]
+                },
+                "highlight": {
+                    "summary": [
+                        "that means finding an unconventional solution to a difficult problem or exploiting holes in sloppy <em>programming</em>"
+                    ]
+                },
+                "sort": [
+                    "the"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "12",
+                "_score": null,
+                "_source": {
+                    "summary": "The Go Programming Language is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems.",
+                    "title": "Go Programming Language",
+                    "authors": [
+                        "Alan Donovan"
+                    ]
+                },
+                "highlight": {
+                    "summary": [
+                        "The Go <em>Programming</em> <em>Language</em> is the authoritative resource for any programmer who wants to learn Go."
+                    ],
+                    "title": [
+                        "Go <em>Programming</em> <em>Language</em>"
+                    ]
+                },
+                "sort": [
+                    "programming"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "16",
+                "_score": null,
+                "_source": {
+                    "summary": "Suspendisse euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Jonas Careen"
+                    ]
+                },
+                "highlight": {
+                    "title": [
+                        "<em>Programming</em> in Lorem Ipsum"
+                    ]
+                },
+                "sort": [
+                    "programming"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "17",
+                "_score": null,
+                "_source": {
+                    "summary": "Programming euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Lex Garnet"
+                    ]
+                },
+                "highlight": {
+                    "summary": [
+                        "<em>Programming</em> euismod elit in nunc aliquet venenatis."
+                    ],
+                    "title": [
+                        "<em>Programming</em> in Lorem Ipsum"
+                    ]
+                },
+                "sort": [
+                    "programming"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "19",
+                "_score": null,
+                "_source": {
+                    "summary": "Programming euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Jazmyn Wynter"
+                    ]
+                },
+                "highlight": {
+                    "summary": [
+                        "<em>Programming</em> euismod elit in nunc aliquet venenatis."
+                    ],
+                    "title": [
+                        "<em>Programming</em> in Lorem Ipsum"
+                    ]
+                },
+                "sort": [
+                    "programming"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "4",
+                "_score": null,
+                "_source": {
+                    "summary": "build scalable search applications using Elasticsearch without having to do complex low-level programming or understand advanced data science algorithms",
+                    "title": "Elasticsearch in Action",
+                    "authors": [
+                        "radu gheorge",
+                        "matthew lee hinman",
+                        "roy russo"
+                    ]
+                },
+                "highlight": {
+                    "summary": [
+                        "build scalable search applications using Elasticsearch without having to do complex low-level <em>programming</em>"
+                    ]
+                },
+                "sort": [
+                    "in"
+                ]
+            }
+        ]
+    }
+}

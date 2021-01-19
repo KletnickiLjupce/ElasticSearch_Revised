@@ -1,0 +1,173 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 9,
+            "relation": "eq"
+        },
+        "max_score": 2.0132174,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "2",
+                "_score": 2.0132174,
+                "_source": {
+                    "title": "Elasticsearch: The Definitive Guide",
+                    "authors": [
+                        "clinton gormley",
+                        "zachary tong"
+                    ],
+                    "summary": "A distibuted real-time search and analytics engine",
+                    "publish_date": "2015-02-07",
+                    "num_reviews": 20,
+                    "publisher": "oreilly"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "5",
+                "_score": 1.8898503,
+                "_source": {
+                    "title": "Solr in Action",
+                    "authors": [
+                        "trey grainger",
+                        "timothy potter"
+                    ],
+                    "summary": "Comprehensive guide to implementing a scalable search engine using Apache Solr",
+                    "publish_date": "2014-04-05",
+                    "num_reviews": 23,
+                    "publisher": "manning"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "12",
+                "_score": 1.5764048,
+                "_source": {
+                    "title": "Go Programming Language",
+                    "authors": [
+                        "Alan Donovan"
+                    ],
+                    "summary": "The Go Programming Language is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems.",
+                    "publish_date": "2008-06-04",
+                    "num_reviews": 1998,
+                    "publisher": "Addison-Wesley Professional"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "16",
+                "_score": 1.455773,
+                "_source": {
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Jonas Careen"
+                    ],
+                    "summary": "Suspendisse euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "publish_date": "2020-02-04",
+                    "num_reviews": 2014,
+                    "publisher": "HMH Books for Young Readers"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "17",
+                "_score": 1.455773,
+                "_source": {
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Lex Garnet"
+                    ],
+                    "summary": "Programming euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "publish_date": "2019-05-07",
+                    "num_reviews": 215,
+                    "publisher": "Random Publishing Group"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "19",
+                "_score": 1.455773,
+                "_source": {
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Jazmyn Wynter"
+                    ],
+                    "summary": "Programming euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "publish_date": "2019-05-07",
+                    "num_reviews": 1000,
+                    "publisher": "Random Publishing Group"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "8",
+                "_score": 1.3614682,
+                "_source": {
+                    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine 1st Edition",
+                    "authors": [
+                        "Clinton Gormley"
+                    ],
+                    "summary": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work.",
+                    "publish_date": "2015-02-07",
+                    "num_reviews": 756,
+                    "publisher": "O'Reilly Media"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "13",
+                "_score": 1.1288998,
+                "_source": {
+                    "title": "Engine Builder's Handbook",
+                    "authors": [
+                        "Tom Monroe"
+                    ],
+                    "summary": "All of the information in this valuable companion guide is presented in terms easy to understand. Packed with general tips, techniques, and procedures that can be applied to all types of engine building, whether for musclecars, classics, hot rods, powerboats or all-out race cars.",
+                    "publish_date": "1996-08-01",
+                    "num_reviews": 1157,
+                    "publisher": "HP Books"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "6",
+                "_score": 1.1146009,
+                "_source": {
+                    "title": "Programming PHP: Creating Dynamic Web Pages 4th Edition",
+                    "authors": [
+                        "Kevin Tatroe"
+                    ],
+                    "summary": "Why is PHP the most widely used programming language on the web? This updated edition teaches everything you need to know to create effective web applications using the latest features in PHP 7.4.",
+                    "publish_date": "2020-03-31",
+                    "num_reviews": 1235,
+                    "publisher": "O'Reilly Media"
+                }
+            }
+        ]
+    },
+    "aggregations": {
+        "ElasticsearchOrGuide": {
+            "doc_count": 9,
+            "AverageNumOfRevires": {
+                "value": 935.3333333333334
+            }
+        }
+    }
+}

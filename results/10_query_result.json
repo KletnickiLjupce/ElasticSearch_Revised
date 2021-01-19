@@ -1,0 +1,51 @@
+{
+    "took": 4,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 2,
+            "relation": "eq"
+        },
+        "max_score": 1.455773,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "17",
+                "_score": 1.455773,
+                "_source": {
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Lex Garnet"
+                    ],
+                    "summary": "Programming euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "publish_date": "2019-05-07",
+                    "num_reviews": 215,
+                    "publisher": "Random Publishing Group"
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "19",
+                "_score": 1.455773,
+                "_source": {
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Jazmyn Wynter"
+                    ],
+                    "summary": "Programming euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "publish_date": "2019-05-07",
+                    "num_reviews": 1000,
+                    "publisher": "Random Publishing Group"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 2,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "6",
+                "_score": null,
+                "_source": {
+                    "summary": "Why is PHP the most widely used programming language on the web? This updated edition teaches everything you need to know to create effective web applications using the latest features in PHP 7.4.",
+                    "title": "Programming PHP: Creating Dynamic Web Pages 4th Edition",
+                    "authors": [
+                        "Kevin Tatroe"
+                    ]
+                },
+                "sort": [
+                    "web"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "7",
+                "_score": null,
+                "_source": {
+                    "summary": "That's what one developer posted on the first edition of Murach's PHP and MySQL. Now, this 3rd Edition does a better-than-ever job of delivering the skills you need to develop database-driven websites using PHP and MySQL, the way today's top web professionals do",
+                    "title": "Murach's PHP and MySQL (3rd Edition)",
+                    "authors": [
+                        "Joel Murach"
+                    ]
+                },
+                "sort": [
+                    "php"
+                ]
+            }
+        ]
+    }
+}

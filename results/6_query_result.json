@@ -1,0 +1,35 @@
+{
+    "took": 13,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 1.455773,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "16",
+                "_score": 1.455773,
+                "_source": {
+                    "title": "Programming in Lorem Ipsum ",
+                    "authors": [
+                        "Jonas Careen"
+                    ],
+                    "summary": "Suspendisse euismod elit in nunc aliquet venenatis. Cras porttitor sapien dapibus purus suscipit efficitur. Etiam interdum dolor nec malesuada vestibulum.",
+                    "publish_date": "2020-02-04",
+                    "num_reviews": 2014,
+                    "publisher": "HMH Books for Young Readers"
+                }
+            }
+        ]
+    }
+}

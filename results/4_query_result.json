@@ -1,0 +1,85 @@
+{
+    "took": 4,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 4,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "8",
+                "_score": null,
+                "_source": {
+                    "summary": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work.",
+                    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine 1st Edition",
+                    "authors": [
+                        "Clinton Gormley"
+                    ]
+                },
+                "sort": [
+                    "1st"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "5",
+                "_score": null,
+                "_source": {
+                    "summary": "Comprehensive guide to implementing a scalable search engine using Apache Solr",
+                    "title": "Solr in Action",
+                    "authors": [
+                        "trey grainger",
+                        "timothy potter"
+                    ]
+                },
+                "sort": [
+                    "action"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "13",
+                "_score": null,
+                "_source": {
+                    "summary": "All of the information in this valuable companion guide is presented in terms easy to understand. Packed with general tips, techniques, and procedures that can be applied to all types of engine building, whether for musclecars, classics, hot rods, powerboats or all-out race cars.",
+                    "title": "Engine Builder's Handbook",
+                    "authors": [
+                        "Tom Monroe"
+                    ]
+                },
+                "sort": [
+                    "builder's"
+                ]
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "2",
+                "_score": null,
+                "_source": {
+                    "summary": "A distibuted real-time search and analytics engine",
+                    "title": "Elasticsearch: The Definitive Guide",
+                    "authors": [
+                        "clinton gormley",
+                        "zachary tong"
+                    ]
+                },
+                "sort": [
+                    "definitive"
+                ]
+            }
+        ]
+    }
+}

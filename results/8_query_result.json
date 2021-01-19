@@ -1,0 +1,45 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 2,
+            "relation": "eq"
+        },
+        "max_score": 1,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "4",
+                "_score": 1,
+                "_source": {
+                    "title": "Elasticsearch in Action",
+                    "authors": [
+                        "radu gheorge",
+                        "matthew lee hinman",
+                        "roy russo"
+                    ]
+                }
+            },
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "15",
+                "_score": 1,
+                "_source": {
+                    "title": "Murach's ASP.NET Core MVC",
+                    "authors": [
+                        "David Macaulay"
+                    ]
+                }
+            }
+        ]
+    }
+}

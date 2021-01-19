@@ -1,0 +1,35 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 1.8234994,
+        "hits": [
+            {
+                "_index": "bookdb_index",
+                "_type": "book",
+                "_id": "6",
+                "_score": 1.8234994,
+                "_source": {
+                    "title": "Programming PHP: Creating Dynamic Web Pages 4th Edition",
+                    "authors": [
+                        "Kevin Tatroe"
+                    ],
+                    "summary": "Why is PHP the most widely used programming language on the web? This updated edition teaches everything you need to know to create effective web applications using the latest features in PHP 7.4.",
+                    "publish_date": "2020-03-31",
+                    "num_reviews": 1235,
+                    "publisher": "O'Reilly Media"
+                }
+            }
+        ]
+    }
+}
